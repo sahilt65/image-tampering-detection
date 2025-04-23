@@ -83,9 +83,24 @@ There are two parallels that are being used to identify an image's authenticity:
 """)
 with st.expander("How to use it?"):
     st.markdown("""
-    1. **Upload an Image:** Choose an image to analyze.
-    2. **Select the Outdoor Option:** Indicate whether the image is taken outdoors.
-    3. **View Results:** Get insights into the image’s authenticity with detailed analysis.
+### 🖼️ Step 1: Upload an Image  
+Choose an image from your device that you'd like to analyze.
+
+---
+
+### 🌤️ Step 2: Is This Image Taken Outdoors?  
+Let us know if the image was captured in an outdoor setting. Just select **Yes** or **No**.
+
+---
+
+### 🔍 Step 3: View Results  
+Click **Analyze Image** to get detailed insights into the image’s authenticity, including lighting, environment consistency, and possible edits.
+
+---
+
+### 📥 Step 4: Download ELA Result  
+Once the analysis is complete, click **Download ELA Image** to save the result showing possible areas of manipulation in the uploaded image.
+
 
     """)
 
