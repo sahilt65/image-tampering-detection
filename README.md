@@ -27,7 +27,7 @@ Analyze the results
 ### Running Locally
 Clone the repo<br>
 ```bash
-git clone https://github.com/jayant1211/Image-Tampering-Detection-using-ELA-and-Metadata-Analysis.git
+git clone https://github.com/sahilt65/image-tampering-detection/
 cd Image-Tampering-Detection-using-ELA-and-Metadata-Analysis/
 ```
 
@@ -47,12 +47,12 @@ when a lossy algorithm like JPEG compresses an image, the compression process in
 
 in ELA, we calculate the absolute mean of an image at different compression levels:
 <p align="center">
-  <img src="https://github.com/jayant1211/Image-Tampering-Detection-using-ELA-and-Metadata-Analysis/blob/main/rsc/ela.jpg" alt="ELA Real Image" width="75%" height="75%">
+  <img src="https://github.com/sahilt65/image-tampering-detection/blob/main/rsc/ela.jpg" alt="ELA Real Image" width="75%" height="75%">
 </p>
 <p align="center">ELA</p>
 by doing this, we are essentially amplifying the variations caused by compression artifacts.
 <p align="center">
-  <img src="https://github.com/jayant1211/Image-Tampering-Detection-using-ELA-and-Metadata-Analysis/blob/main/rsc/fake_img.jpg" alt="Fake Image" width="75%" height="75%">
+  <img src="https://github.com/sahilt65/image-tampering-detection/blob/main/rsc/fake_img.jpg" alt="Fake Image" width="75%" height="75%">
 </p>
 <p align="center">ELA for fake image</p>
 The CASIA2.0 dataset contains a set of real and tampered images, we have used this dataset, and it is pre-processed to produce the ELA of every image(optimal image quality for compression level for calculating absolute diff was 90%). This preprocessed dataset is then trained on DenseNet121.
@@ -87,8 +87,6 @@ For Weather CNN:<br>
 | Validation Accuracy   |   81.6%   |
 | Test Accuracy         |   73.4%   |
 
-### Video
-[Video Result](https://youtu.be/aEpDw_GZb9g)
 
 ### To-Dos
 - [ ] Use scene classification model to remove user dependency for checking whether the image is outdoor or not. (In progress)
