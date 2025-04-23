@@ -91,13 +91,14 @@ with st.expander("How to use it?"):
 
 with st.expander("Got a Query?"):
     st.markdown("""
-Hi, I'm Sahil
                 
 If you have any questions, feedback, suggestions, or just want to chat, feel free to reach out!
 
-- [Github](https://github.com/sahilt65)
+- [Sahil Tiwade LinkedIn](https://www.linkedin.com/in/sahiltiwade/)
+- [Samir Thokal LinkedIn](https://www.linkedin.com/in/samir-thokal/)
+- [Devraj Thakkar LinkedIn](https://www.linkedin.com/in/devraj-thakkar-361242239/)
+- [Arya Yelure LinkedIn](https://www.linkedin.com/in/arya-yelure/)
 
-you can also email me at sahiltiwade123@gmail.com.
 """)
 
 
